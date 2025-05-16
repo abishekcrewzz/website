@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoShop – Sustainable Marketplace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .fade-in { animation: fadeIn 1.5s ease-in forwards; opacity: 0; }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-20 px-6 fade-in">
+    <div class="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center">
+      <div class="w-full md:w-1/2 text-center md:text-left space-y-6">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-green-700">Welcome to EcoShop</h1>
+        <p class="text-lg text-gray-700">A sustainable online marketplace connecting conscious consumers with eco-friendly products.</p>
+        <a href="#features" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition">Explore Features</a>
+      </div>
+      <div class="w-full md:w-1/2 mb-10 md:mb-0">
+        <img src="https://cdn-icons-png.flaticon.com/512/2909/2909761.png" alt="Eco-friendly Shopping" class="w-full max-w-sm mx-auto animate-bounce">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16 fade-in">
+    <div class="text-center space-y-4">
+      <h2 class="text-3xl font-bold text-green-700">What is EcoShop?</h2>
+      <p class="text-gray-600">EcoShop is your one-stop eco marketplace. We verify vendors and highlight sustainability to help you make greener shopping choices.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="bg-green-50 py-16 px-6 fade-in">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center text-green-700 mb-12">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" class="w-16 mb-4" alt="Product Ratings">
+          <h3 class="text-xl font-semibold text-green-700">Sustainability Ratings</h3>
+          <p class="text-gray-600 mt-2">Each product is reviewed for eco impact and given a green score.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/2633/2633860.png" class="w-16 mb-4" alt="Vendor Portal">
+          <h3 class="text-xl font-semibold text-green-700">Vendor Portal</h3>
+          <p class="text-gray-600 mt-2">Eco-sellers can manage listings, track sales, and connect with buyers.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="w-16 mb-4" alt="Eco Tools">
+          <h3 class="text-xl font-semibold text-green-700">Eco Tools</h3>
+          <p class="text-gray-600 mt-2">Coming soon: carbon calculator, offset donations, and AI suggestions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="text-center py-20 px-6 fade-in">
+    <h2 class="text-3xl font-bold text-green-700">Join the Green Revolution</h2>
+    <p class="text-gray-600 mt-4 mb-6">Be part of the change. Support small eco brands and shop sustainably.</p>
+    <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition">Get Started</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white py-6 text-center">
+    <p>&copy; 2025 EcoShop. Made for a better planet.</p>
+  </footer>
+</body>
+</html>
